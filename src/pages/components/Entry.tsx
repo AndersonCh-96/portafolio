@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaGitlab, FaLinkedin, FaPhone } from "react-icons/fa";
+import { FaGithub, FaGitlab, FaLinkedin } from "react-icons/fa";
 
 const Entry = () => {
   return (

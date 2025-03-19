@@ -1,13 +1,11 @@
 import React from "react";
 import Datos from "../data/data";
-import { FaReact } from "react-icons/fa";
+
 import Entry from "./components/Entry";
 
 import { SiCisco } from "react-icons/si";
-import { useNavigate } from "react-router-dom";
 
 const Home = () => {
-  const navigate: any = useNavigate();
   return (
     <React.Fragment>
       <div className="flex flex-col">
