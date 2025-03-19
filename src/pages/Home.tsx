@@ -190,7 +190,7 @@ const Home = () => {
               }}
             >
               <div className="flex justify-between  ">
-                <h1>Earn this Badge Python Essentials 1</h1>
+                <h1>Python Essentials 1</h1>
                 <span>2023</span>
               </div>
               <div className="flex gap-3">
