@@ -1,0 +1,36 @@
+---
+const EXPERIENCE = [
+  {
+    data: 'February 2022',
+    title: 'Application UI code in Tailwind CSS',
+    description: 'Loren asd sserae asdd edas asda serrtas ',
+    link: '#',
+  },
+  {
+    data: 'February 2022',
+    title: 'Application UI code in Tailwind CSS',
+    description:
+      'Loren asd sserae asdd edas asda serrtas  entry data where state dondex',
+    link: '#',
+  },
+  {
+    data: 'February 2022',
+    title: 'Application UI code in Tailwind CSS',
+    description:
+      'lorem ipsum asd sserae asdd edas asda serrtas lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+    link: '#',
+  },
+];
+
+import ExperienceItem from './ExperienceItem.astro';
+---
+
+<ol class="relative border-s border-gray-200 dark:border-gray-700">
+  {
+    EXPERIENCE.map((experience) => (
+      <li>
+        <ExperienceItem {...experience} />
+      </li>
+    ))
+  }
+</ol>
